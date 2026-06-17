@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="300">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&amp;display=swap');
+      
+      .font-mono {
+        font-family: 'IBM Plex Mono', monospace;
+      }
+
+      /* Radar Sweep Animation */
+      @keyframes radar-sweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      /* Blip Pulses */
+      @keyframes blip-glow-1 {
+        0%, 100% { opacity: 0.1; }
+        25% { opacity: 0.9; filter: drop-shadow(0 0 4px #FFF); }
+        50% { opacity: 0.4; }
+      }
+      @keyframes blip-glow-2 {
+        0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 3px #FFF); }
+        40% { opacity: 0.1; }
+        70% { opacity: 0.9; filter: drop-shadow(0 0 5px #FFF); }
+      }
+      @keyframes blip-glow-3 {
+        0%, 100% { opacity: 0.3; }
+        60% { opacity: 0.9; filter: drop-shadow(0 0 4px #FFF); }
+        80% { opacity: 0.1; }
+      }
+
+      /* Bar fill animation */
+      @keyframes bar-pulse {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.4)); }
+      }
+
+      /* Grid Pulse */
+      @keyframes grid-pulse {
+        0%, 100% { opacity: 0.25; }
+        50% { opacity: 0.4; }
+      }
+
+      /* Classes */
+      .anim-radar {
+        transform-origin: 170px 150px;
+        animation: radar-sweep 6s linear infinite;
+      }
+      
+      .blip-1 { animation: blip-glow-1 4s ease-in-out infinite; }
+      .blip-2 { animation: blip-glow-2 3.5s ease-in-out infinite; }
+      .blip-3 { animation: blip-glow-3 5s ease-in-out infinite; }
+      
+      .skill-bar-active {
+        animation: bar-pulse 2s ease-in-out infinite;
+      }
+
+      .radar-bg-grid {
+        animation: grid-pulse 4s ease-in-out infinite;
+      }
+
+      /* Styling */
+      .bg-panel { fill: #070707; stroke: #222222; stroke-width: 1.5; }
+      .radar-line { fill: none; stroke: #222222; stroke-width: 0.75; }
+      .radar-line-primary { fill: none; stroke: #444444; stroke-width: 1; }
+      .radar-blip { fill: #FFFFFF; }
+      
+      .text-label { font-size: 10px; fill: #666666; letter-spacing: 1.5px; }
+      .text-skill { font-size: 11px; fill: #FFFFFF; font-weight: 500; letter-spacing: 1px; }
+      .text-pct { font-size: 10px; fill: #888888; font-weight: 400; }
+      
+      .track-bar { fill: none; stroke: #181818; stroke-width: 8; stroke-linecap: butt; }
+      .fill-bar { fill: none; stroke: #FFFFFF; stroke-width: 8; stroke-linecap: butt; }
+    </style>
+
+    <!-- Pattern -->
+    <pattern id="dot-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#181818" />
+    </pattern>
+  </defs>
+
+  <!-- Base Panel -->
+  <rect width="848" height="298" x="1" y="1" rx="8" class="bg-panel" />
+  
+  <!-- Dot Grid Background -->
+  <rect width="846" height="296" x="2" y="2" fill="url(#dot-grid)" rx="8" />
+
+  <!-- LEFT: Radar Instrument -->
+  <g transform="translate(0, 0)">
+    <!-- Radar concentric circles -->
+    <circle cx="170" cy="150" r="110" class="radar-line-primary radar-bg-grid" />
+    <circle cx="170" cy="150" r="85" class="radar-line radar-bg-grid" />
+    <circle cx="170" cy="150" r="60" class="radar-line radar-bg-grid" />
+    <circle cx="170" cy="150" r="35" class="radar-line radar-bg-grid" />
+    <circle cx="170" cy="150" r="10" class="radar-line-primary" />
+    
+    <!-- Crosshairs -->
+    <line x1="50" y1="150" x2="290" y2="150" class="radar-line-primary" />
+    <line x1="170" y1="30" x2="170" y2="270" class="radar-line-primary" />
+    
+    <!-- Diagonal markings -->
+    <line x1="85" y1="65" x2="255" y2="235" class="radar-line" stroke-dasharray="3, 3" />
+    <line x1="85" y1="235" x2="255" y2="65" class="radar-line" stroke-dasharray="3, 3" />
+
+    <!-- Static Targets (blips) that glow -->
+    <circle cx="225" cy="115" r="4.5" class="radar-blip blip-1" />
+    <line x1="225" y1="115" x2="240" y2="100" stroke="#FFF" stroke-width="0.5" class="blip-1" />
+    <text x="244" y="98" font-family="IBM Plex Mono" font-size="8" fill="#FFF" class="blip-1">TGT_01: PY</text>
+
+    <circle cx="110" cy="190" r="4" class="radar-blip blip-2" />
+    <line x1="110" y1="190" x2="90" y2="205" stroke="#FFF" stroke-width="0.5" class="blip-2" />
+    <text x="50" y="215" font-family="IBM Plex Mono" font-size="8" fill="#FFF" class="blip-2">TGT_02: NEXT</text>
+
+    <circle cx="150" cy="70" r="5" class="radar-blip blip-3" />
+    <line x1="150" y1="70" x2="135" y2="55" stroke="#FFF" stroke-width="0.5" class="blip-3" />
+    <text x="95" y="50" font-family="IBM Plex Mono" font-size="8" fill="#FFF" class="blip-3">TGT_03: NODE</text>
+
+    <!-- The Sweep -->
+    <line x1="170" y1="150" x2="280" y2="150" stroke="#FFFFFF" stroke-width="2.25" stroke-linecap="round" class="anim-radar" opacity="0.9" filter="drop-shadow(0 0 3px rgba(255,255,255,0.7))" />
+    
+    <!-- Outer angle indicators -->
+    <text x="163" y="25" class="font-mono" font-size="8" fill="#444">000°</text>
+    <text x="295" y="153" class="font-mono" font-size="8" fill="#444">090°</text>
+    <text x="163" y="282" class="font-mono" font-size="8" fill="#444">180°</text>
+    <text x="25" y="153" class="font-mono" font-size="8" fill="#444">270°</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="330" y1="30" x2="330" y2="270" stroke="#1C1C1C" stroke-width="1" />
+
+  <!-- RIGHT: Skill Matrix Telemetry -->
+  <g transform="translate(360, 0)">
+    <!-- Header -->
+    <text x="10" y="38" class="font-mono text-label">SKILLS TELEMETRY &amp; COGNITIVE METRICS</text>
+    <line x1="10" y1="46" x2="450" y2="46" stroke="#1A1A1A" stroke-width="1" />
+
+    <!-- 1. Python -->
+    <g transform="translate(10, 60)">
+      <text x="0" y="16" class="font-mono text-skill">PYTHON</text>
+      <!-- Segmented Track (stroke-dasharray creates grid dots or segments!) -->
+      <line x1="120" y1="12" x2="380" y2="12" class="track-bar" stroke-dasharray="3, 1.5" />
+      <!-- Segmented Fill -->
+      <line x1="120" y1="12" x2="341" y2="12" class="fill-bar skill-bar-active" stroke-dasharray="3, 1.5" />
+      <text x="395" y="16" class="font-mono text-pct">85%</text>
+    </g>
+
+    <!-- 2. Next.js -->
+    <g transform="translate(10, 95)">
+      <text x="0" y="16" class="font-mono text-skill">NEXT.JS</text>
+      <line x1="120" y1="12" x2="380" y2="12" class="track-bar" stroke-dasharray="3, 1.5" />
+      <line x1="120" y1="12" x2="328" y2="12" class="fill-bar skill-bar-active" stroke-dasharray="3, 1.5" />
+      <text x="395" y="16" class="font-mono text-pct">80%</text>
+    </g>
+
+    <!-- 3. Node.js -->
+    <g transform="translate(10, 130)">
+      <text x="0" y="16" class="font-mono text-skill">NODE.JS</text>
+      <line x1="120" y1="12" x2="380" y2="12" class="track-bar" stroke-dasharray="3, 1.5" />
+      <line x1="120" y1="12" x2="328" y2="12" class="fill-bar skill-bar-active" stroke-dasharray="3, 1.5" />
+      <text x="395" y="16" class="font-mono text-pct">80%</text>
+    </g>
+
+    <!-- 4. Figma / Design -->
+    <g transform="translate(10, 165)">
+      <text x="0" y="16" class="font-mono text-skill">FIGMA/DES</text>
+      <line x1="120" y1="12" x2="380" y2="12" class="track-bar" stroke-dasharray="3, 1.5" />
+      <line x1="120" y1="12" x2="328" y2="12" class="fill-bar skill-bar-active" stroke-dasharray="3, 1.5" />
+      <text x="395" y="16" class="font-mono text-pct">80%</text>
+    </g>
+
+    <!-- 5. TypeScript -->
+    <g transform="translate(10, 200)">
+      <text x="0" y="16" class="font-mono text-skill">TSCRIPT</text>
+      <line x1="120" y1="12" x2="380" y2="12" class="track-bar" stroke-dasharray="3, 1.5" />
+      <line x1="120" y1="12" x2="250" y2="12" class="fill-bar skill-bar-active" stroke-dasharray="3, 1.5" />
+      <text x="395" y="16" class="font-mono text-pct">50%</text>
+    </g>
+
+    <!-- 6. React Native -->
+    <g transform="translate(10, 235)">
+      <text x="0" y="16" class="font-mono text-skill">R_NATIVE</text>
+      <line x1="120" y1="12" x2="380" y2="12" class="track-bar" stroke-dasharray="3, 1.5" />
+      <line x1="120" y1="12" x2="250" y2="12" class="fill-bar skill-bar-active" stroke-dasharray="3, 1.5" />
+      <text x="395" y="16" class="font-mono text-pct">50%</text>
+    </g>
+  </g>
+
+  <!-- Frame corners -->
+  <path d="M 12 12 L 12 24 M 12 12 L 24 12" stroke="#FFF" stroke-width="1.5" fill="none" />
+  <path d="M 836 12 L 836 24 M 836 12 L 824 12" stroke="#FFF" stroke-width="1.5" fill="none" />
+  <path d="M 12 286 L 12 274 M 12 286 L 24 286" stroke="#FFF" stroke-width="1.5" fill="none" />
+  <path d="M 836 286 L 836 274 M 836 286 L 824 286" stroke="#FFF" stroke-width="1.5" fill="none" />
+
+</svg>

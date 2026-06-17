@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="160">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&amp;display=swap');
+      
+      .font-mono {
+        font-family: 'IBM Plex Mono', monospace;
+      }
+
+      /* Audio wave / Spectrum bar animations */
+      @keyframes eq-bar {
+        0%, 100% { transform: scaleY(0.2); }
+        50% { transform: scaleY(1); }
+      }
+      
+      @keyframes dot-blink {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 1; fill: #FFFFFF; }
+      }
+
+      @keyframes line-flow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -30; }
+      }
+
+      @keyframes wave-draw {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .eq-bar-1 { animation: eq-bar 1.2s ease-in-out infinite alternate; transform-origin: 300px 125px; }
+      .eq-bar-2 { animation: eq-bar 0.8s ease-in-out infinite alternate; transform-origin: 310px 125px; animation-delay: 0.2s; }
+      .eq-bar-3 { animation: eq-bar 1.5s ease-in-out infinite alternate; transform-origin: 320px 125px; animation-delay: 0.4s; }
+      .eq-bar-4 { animation: eq-bar 1.0s ease-in-out infinite alternate; transform-origin: 330px 125px; animation-delay: 0.1s; }
+      
+      .blink-matrix-1 { animation: dot-blink 1.5s infinite step-end; }
+      .blink-matrix-2 { animation: dot-blink 2.2s infinite step-end; animation-delay: 0.5s; }
+      .blink-matrix-3 { animation: dot-blink 1.8s infinite step-end; animation-delay: 0.9s; }
+      
+      .flow-path { stroke-dasharray: 6, 4; animation: line-flow 2s linear infinite; }
+      
+      .bg-panel { fill: #070707; stroke: #222222; stroke-width: 1.5; }
+      .grid-line { stroke: #121212; stroke-width: 1; }
+      
+      .text-title { font-size: 8px; fill: #555555; letter-spacing: 2px; font-weight: 500; }
+      .text-number { font-size: 28px; fill: #FFFFFF; font-weight: 700; letter-spacing: -0.5px; }
+      .text-suffix { font-size: 11px; fill: #FFFFFF; font-weight: 400; letter-spacing: 1px; }
+      .text-desc { font-size: 9px; fill: #888888; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <!-- Base Panel -->
+  <rect width="848" height="158" x="1" y="1" rx="8" class="bg-panel" />
+
+  <!-- Vertical Divider Grids -->
+  <line x1="212.5" y1="20" x2="212.5" y2="140" stroke="#1D1D1D" stroke-width="1" />
+  <line x1="425" y1="20" x2="425" y2="140" stroke="#1D1D1D" stroke-width="1" />
+  <line x1="637.5" y1="20" x2="637.5" y2="140" stroke="#1D1D1D" stroke-width="1" />
+
+  <!-- MODULE 1: Coding Experience (x=0 to 212.5) -->
+  <g transform="translate(20, 20)">
+    <text x="0" y="15" class="font-mono text-title">INSTRUMENT // 01</text>
+    <text x="0" y="52" class="font-mono text-number">3+<tspan class="text-suffix"> YRS</tspan></text>
+    <text x="0" y="72" class="font-mono text-desc">CODING COMPLEXITY</text>
+    
+    <!-- Mini Graphic: Flow Line -->
+    <path d="M 0 105 L 40 105 L 60 90 L 80 120 L 100 105 L 170 105" fill="none" stroke="#222" stroke-width="2" />
+    <path d="M 0 105 L 40 105 L 60 90 L 80 120 L 100 105 L 170 105" fill="none" stroke="#FFF" stroke-width="2" class="flow-path" />
+  </g>
+
+  <!-- MODULE 2: Projects constructed (x=212.5 to 425) -->
+  <g transform="translate(232.5, 20)">
+    <text x="0" y="15" class="font-mono text-title">INSTRUMENT // 02</text>
+    <text x="0" y="52" class="font-mono text-number">10+<tspan class="text-suffix"> BUILDS</tspan></text>
+    <text x="0" y="72" class="font-mono text-desc">CONSTRUCTED REPOS</text>
+    
+    <!-- Mini Graphic: Pulsing Bar Matrix -->
+    <g transform="translate(0, -10)">
+      <line x1="65" y1="125" x2="65" y2="95" stroke="#FFFFFF" stroke-width="4" class="eq-bar-1" />
+      <line x1="75" y1="125" x2="75" y2="95" stroke="#FFFFFF" stroke-width="4" class="eq-bar-2" />
+      <line x1="85" y1="125" x2="85" y2="95" stroke="#FFFFFF" stroke-width="4" class="eq-bar-3" />
+      <line x1="95" y1="125" x2="95" y2="95" stroke="#FFFFFF" stroke-width="4" class="eq-bar-4" />
+    </g>
+  </g>
+
+  <!-- MODULE 3: Hackathons (x=425 to 637.5) -->
+  <g transform="translate(445, 20)">
+    <text x="0" y="15" class="font-mono text-title">INSTRUMENT // 03</text>
+    <text x="0" y="52" class="font-mono text-number">5+<tspan class="text-suffix"> HACKS</tspan></text>
+    <text x="0" y="72" class="font-mono text-desc">HACKATHON EVENTS</text>
+    
+    <!-- Mini Graphic: Dot Array Blinkers -->
+    <g transform="translate(0, 95)">
+      <circle cx="5" cy="10" r="3" fill="#222" class="blink-matrix-1" />
+      <circle cx="17" cy="10" r="3" fill="#222" class="blink-matrix-2" />
+      <circle cx="29" cy="10" r="3" fill="#222" class="blink-matrix-3" />
+      <circle cx="41" cy="10" r="3" fill="#222" class="blink-matrix-1" />
+      
+      <circle cx="5" cy="22" r="3" fill="#222" class="blink-matrix-3" />
+      <circle cx="17" cy="22" r="3" fill="#222" class="blink-matrix-1" />
+      <circle cx="29" cy="22" r="3" fill="#222" class="blink-matrix-2" />
+      <circle cx="41" cy="22" r="3" fill="#222" class="blink-matrix-3" />
+    </g>
+  </g>
+
+  <!-- MODULE 4: Clients & Collaborations (x=637.5 to 850) -->
+  <g transform="translate(657.5, 20)">
+    <text x="0" y="15" class="font-mono text-title">INSTRUMENT // 04</text>
+    <text x="0" y="52" class="font-mono text-number">0<tspan class="text-suffix"> CLNTS</tspan></text>
+    <text x="0" y="72" class="font-mono text-desc">CLIENT COLLABORATION</text>
+    
+    <!-- Mini Graphic: Pulsing Radar Circle -->
+    <g transform="translate(70, 95)">
+      <circle cx="15" cy="12" r="10" fill="none" stroke="#222" stroke-width="1.5" />
+      <circle cx="15" cy="12" r="15" fill="none" stroke="#444" stroke-width="0.75" stroke-dasharray="2, 2" />
+      <circle cx="15" cy="12" r="4" fill="#FFFFFF" class="blink-matrix-2" />
+    </g>
+  </g>
+
+</svg>
