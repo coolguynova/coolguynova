@@ -29,7 +29,7 @@ C++      ▰▰▰▰▰▰▰▰▰▰  Algorithms, Systems, Game Dev
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=coolguynova&show_icons=true&hide_border=true&bg_color=FAFAFA&title_color=111111&text_color=666666&icon_color=111111" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coolguynova&layout=compact&hide_border=true&bg_color=FAFAFA&title_color=111111&text_color=666666&langs_count=6" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=coolguynova&layout=compact&hide_border=true&bg_color=FAFAFA&title_color=111111&text_color=666666&langs_count=6" width="49%" />
 </p>
 
 ---
