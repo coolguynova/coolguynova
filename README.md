@@ -3,7 +3,7 @@
 <br>
 
 I build things with **Kotlin**, **Python**, and **C++**.  
-Currently exploring Android development, backend systems, and whatever else breaks my brain in a good way.
+Also a **Minecraft** fan — been around blocks longer than most frameworks.
 
 ---
 
@@ -11,7 +11,8 @@ Currently exploring Android development, backend systems, and whatever else brea
 
 - **Kotlin** → Android apps, Ktor backends, coroutines
 - **Python** → FastAPI, data pipelines, automation
-- **C++** → algorithms, systems programming, game dev experiments
+- **C++** → algorithms, systems, maybe a Minecraft clone at some point
+- **Minecraft** → redstone tinkerer, survival enthusiast
 - **2026 goal** → ship more, collect fewer tabs
 
 ---
@@ -23,6 +24,7 @@ Currently exploring Android development, backend systems, and whatever else brea
 | Android app (Kotlin) | TBA | building |
 | API service (Python) | TBA | planning |
 | Systems tooling (C++) | TBA | exploring |
+| Minecraft plugin (Kotlin) | maybe | thinking about it |
 
 ---
 

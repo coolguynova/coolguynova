@@ -39,5 +39,6 @@
   <circle cx="675" cy="55" r="3" fill="#d1d5db" />
   <circle cx="685" cy="55" r="3" fill="#d1d5db" />
   <circle cx="695" cy="55" r="3" fill="#d1d5db" />
-  <text x="710" y="113" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" font-weight="500">data class Developer</text>
+  <text x="710" y="108" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" font-weight="500">data class Developer</text>
+  <text x="710" y="126" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="11" fill="#d1d5db" text-anchor="middle" font-weight="400">also likes Minecraft █</text>
 </svg>
