@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg">
-  <img src="./assets/header.svg" width="100%" alt="Naman Mittal">
-</picture>
+<img src="./assets/header.svg" width="100%" alt="Naman Mittal">
 
 <br>
 
@@ -31,8 +28,8 @@ C++      ▰▰▰▰▰▰▰▰▰▰  Algorithms, Systems, Game Dev
 ### github
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=coolguynova&show_icons=true&hide=contribs&count_private=true&hide_border=true&bg_color=FAFAFA&title_color=111&text_color=666&icon_color=111&disable_animations=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coolguynova&layout=compact&hide_border=true&bg_color=FAFAFA&title_color=111&text_color=666&card_width=320&langs_count=6" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=coolguynova&show_icons=true&hide_border=true&bg_color=FAFAFA&title_color=111111&text_color=666666&icon_color=111111" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coolguynova&layout=compact&hide_border=true&bg_color=FAFAFA&title_color=111111&text_color=666666&langs_count=6" width="49%" />
 </p>
 
 ---
