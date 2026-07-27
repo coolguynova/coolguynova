@@ -1,139 +1,77 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg">
+  <img src="./assets/header.svg" width="100%" alt="Naman Mittal">
+</picture>
 
-  <img src="./assets/header.svg" width="100%" alt="Naman Mittal — Header" />
+<br>
 
-  <br>
-
-  <img src="https://img.shields.io/badge/-Kotlin-000000?style=flat-square&logo=kotlin&logoColor=white&labelColor=111" />
-  <img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=white&labelColor=111" />
-  <img src="https://img.shields.io/badge/-C%2B%2B-000000?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=111" />
-  <img src="https://img.shields.io/badge/-Android-000000?style=flat-square&logo=android&logoColor=white&labelColor=111" />
-  <img src="https://img.shields.io/badge/-Ktor-000000?style=flat-square&logo=kotlin&logoColor=white&labelColor=111" />
-  <img src="https://img.shields.io/badge/-FastAPI-000000?style=flat-square&logo=fastapi&logoColor=white&labelColor=111" />
-
-  <br><br>
-
-</div>
+> Creative technologist based in Delhi, India. I write **Kotlin**, **Python**, and **C++** — building things that sit at the intersection of clean engineering and interactive experiences.
 
 ---
 
-### ✦ Core Metrics
+### now
+
+- 🔭 Working on Android apps with **Kotlin + Ktor**
+- 🌱 Diving deeper into **systems programming with C++**
+- ⚡ Currently building a few things I'll ship soon
+- 🎯 2026 focus: ship more, overthink less
+
+---
+
+### stack
+
+```
+Kotlin   ▰▰▰▰▰▰▰▰▰▰  Android, Ktor, Coroutines
+Python   ▰▰▰▰▰▰▰▰▰▰  FastAPI, Data, Automation
+C++      ▰▰▰▰▰▰▰▰▰▰  Algorithms, Systems, Game Dev
+```
+
+---
+
+### github
 
 <p align="center">
-  <img src="./assets/telemetry.svg" width="100%" alt="Skills Telemetry" />
+  <img src="https://github-readme-stats.vercel.app/api?username=coolguynova&show_icons=true&hide=contribs&count_private=true&hide_border=true&bg_color=FAFAFA&title_color=111&text_color=666&icon_color=111&disable_animations=true" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coolguynova&layout=compact&hide_border=true&bg_color=FAFAFA&title_color=111&text_color=666&card_width=320&langs_count=6" width="49%" />
 </p>
 
 ---
 
-### ✦ Build Activity
+### projects
 
-<p align="center">
-  <img src="./assets/activity.svg" width="100%" alt="Build Metrics" />
-</p>
-
----
-
-### ✦ GitHub Pulse
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=coolguynova&show_icons=true&count_private=true&hide_border=true&bg_color=080808&title_color=ffffff&text_color=888888&icon_color=ffffff&disable_animations=false&hide_rank=false" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coolguynova&layout=compact&hide_border=true&bg_color=080808&title_color=ffffff&text_color=888888&card_width=320&langs_count=6" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=coolguynova&hide_border=true&background=080808&stroke=222222&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=888888&currStreakLabel=ffffff&sideLabels=666666&dates=444444" width="100%" />
-</p>
+| Project | Stack | Status |
+|---------|-------|--------|
+| **Alpha** | Kotlin · Ktor · Android | building |
+| **Beta** | Python · FastAPI · ML | planning |
+| **Gamma** | C++ · Algorithms | exploring |
 
 ---
 
-### ✦ Notable Projects
+### contact
 
-<table align="center">
+<table>
   <tr>
-    <td width="50%" align="center">
-      <br>
-      <strong>Project Alpha</strong>
-      <br>
-      <sub><em>Kotlin · Ktor · Android</em></sub>
-      <br><br>
-      <sub>A modern multiplatform application</sub>
-      <br><br>
-      <a href="https://github.com/coolguynova"><code>→ coming soon</code></a>
-      <br><br>
+    <td align="center">
+      <a href="https://linkedin.com/in/naman--mittal">
+        <img src="https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=fff" alt="LinkedIn"/>
+      </a>
     </td>
-    <td width="50%" align="center">
-      <br>
-      <strong>Project Beta</strong>
-      <br>
-      <sub><em>Python · FastAPI · ML</em></sub>
-      <br><br>
-      <sub>High-performance data pipeline</sub>
-      <br><br>
-      <a href="https://github.com/coolguynova"><code>→ coming soon</code></a>
-      <br><br>
+    <td align="center">
+      <a href="mailto:namanmittal501@gmail.com">
+        <img src="https://img.shields.io/badge/Email-111?style=for-the-badge&logo=gmail&logoColor=fff" alt="Email"/>
+      </a>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <br>
-      <strong>Project Gamma</strong>
-      <br>
-      <sub><em>C++ · Algorithms · Systems</em></sub>
-      <br><br>
-      <sub>Low-level systems & tooling</sub>
-      <br><br>
-      <a href="https://github.com/coolguynova"><code>→ coming soon</code></a>
-      <br><br>
-    </td>
-    <td width="50%" align="center">
-      <br>
-      <strong>coolguynova/dotfiles</strong>
-      <br>
-      <sub><em>Config · Tooling · Automation</em></sub>
-      <br><br>
-      <sub>My development environment</sub>
-      <br><br>
-      <a href="https://github.com/coolguynova"><code>→ explore</code></a>
-      <br><br>
+    <td align="center">
+      <a href="https://github.com/coolguynova">
+        <img src="https://img.shields.io/badge/GitHub-111?style=for-the-badge&logo=github&logoColor=fff" alt="GitHub"/>
+      </a>
     </td>
   </tr>
 </table>
 
 ---
 
-### ✧ About Me
-
-```kotlin
-data class Developer(
-    val name: String = "Naman Mittal",
-    val location: String = "Delhi, India",
-    val languages: List<String> = listOf("Kotlin", "Python", "C++"),
-    val focus: String = "Creative tech & interactive systems",
-    val status: String = "Building · Learning · Shipping"
-)
-```
-
-I'm a creative technologist who loves crafting clean, high-performance software. Currently deep-diving into **Android development with Kotlin**, **backend systems with Python**, and **low-level tooling with C++**. I believe in writing code that's as elegant as it is functional.
-
----
-
-### ✦ Let's Connect
-
-<p align="center">
-  <a href="mailto:namanmittal501@gmail.com">
-    <img src="https://img.shields.io/badge/Email-080808?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111" />
-  </a>
-  <a href="https://linkedin.com/in/naman--mittal">
-    <img src="https://img.shields.io/badge/LinkedIn-080808?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111" />
-  </a>
-  <a href="https://github.com/coolguynova">
-    <img src="https://img.shields.io/badge/GitHub-080808?style=for-the-badge&logo=github&logoColor=white&labelColor=111" />
-  </a>
-</p>
-
----
-
 <br>
 <div align="center">
-  <sub><code>✦ crafted with code · v2.0 · coolguynova ✦</code></sub>
+  <sub><code>thanks for stopping by :)</code></sub>
 </div>
