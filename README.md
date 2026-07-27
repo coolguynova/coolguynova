@@ -54,8 +54,8 @@ I'm a **Creative Technologist & Interactive Developer** based in Delhi, India. I
 
 I'm always down to chat about creative frontend work, interactive dev, or design systems.
 
-* **LinkedIn**: [linkedin.com/in/naman--mittal](https://linkedin.com/in/naman--mittal)
-* **Email**: [namanmittal501@gmail.com](mailto:namanmittal501@gmail.com)
+* **LinkedIn**: [linkedin.com/in/coolguynova](www.linkedin.com/in/naman48708)
+* **Email**: [coolguynova0302@gmail.com](mailto:coolguynova0302@gmail.com)
 
 ---
 
