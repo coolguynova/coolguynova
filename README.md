@@ -28,7 +28,7 @@ Full Stack Developer based in Delhi, India.
 ### connect
 
 <p>
-  <a href="https://linkedin.com/in/naman--mittal"><img src="https://img.shields.io/badge/LinkedIn-000?style=flat-square&logo=linkedin&logoColor=fff&labelColor=eee" alt="LinkedIn" /></a>
-  <a href="mailto:namanmittal501@gmail.com"><img src="https://img.shields.io/badge/Email-000?style=flat-square&logo=gmail&logoColor=fff&labelColor=eee" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/naman48708"><img src="https://img.shields.io/badge/LinkedIn-000?style=flat-square&logo=linkedin&logoColor=fff&labelColor=eee" alt="LinkedIn" /></a>
+  <a href="mailto:coolguynova0302@gmail.com"><img src="https://img.shields.io/badge/Email-000?style=flat-square&logo=gmail&logoColor=fff&labelColor=eee" alt="Email" /></a>
   <a href="https://github.com/coolguynova"><img src="https://img.shields.io/badge/GitHub-000?style=flat-square&logo=github&logoColor=fff&labelColor=eee" alt="GitHub" /></a>
 </p>
