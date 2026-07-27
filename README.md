@@ -1,77 +1,45 @@
-<img src="./assets/header.svg" width="100%" alt="Naman Mittal">
+<img src="./assets/header.svg" width="100%" alt="Naman Mittal" />
 
 <br>
 
-> Creative technologist based in Delhi, India. I write **Kotlin**, **Python**, and **C++** — building things that sit at the intersection of clean engineering and interactive experiences.
+I build things with **Kotlin**, **Python**, and **C++**.  
+Currently exploring Android development, backend systems, and whatever else breaks my brain in a good way.
 
 ---
 
 ### now
 
-- 🔭 Working on Android apps with **Kotlin + Ktor**
-- 🌱 Diving deeper into **systems programming with C++**
-- ⚡ Currently building a few things I'll ship soon
-- 🎯 2026 focus: ship more, overthink less
-
----
-
-### stack
-
-```
-Kotlin   ▰▰▰▰▰▰▰▰▰▰  Android, Ktor, Coroutines
-Python   ▰▰▰▰▰▰▰▰▰▰  FastAPI, Data, Automation
-C++      ▰▰▰▰▰▰▰▰▰▰  Algorithms, Systems, Game Dev
-```
-
----
-
-### github
-
-<p align="center">
-  <a href="https://github.com/coolguynova">
-    <img src="https://img.shields.io/badge/Kotlin-Primary-111?style=flat-square&labelColor=eee" />
-    <img src="https://img.shields.io/badge/Python-Proficient-111?style=flat-square&labelColor=eee" />
-    <img src="https://img.shields.io/badge/C%2B%2B-Intermediate-111?style=flat-square&labelColor=eee" />
-  </a>
-</p>
+- **Kotlin** → Android apps, Ktor backends, coroutines
+- **Python** → FastAPI, data pipelines, automation
+- **C++** → algorithms, systems programming, game dev experiments
+- **2026 goal** → ship more, collect fewer tabs
 
 ---
 
 ### projects
 
-| Project | Stack | Status |
-|---------|-------|--------|
-| **Alpha** | Kotlin · Ktor · Android | building |
-| **Beta** | Python · FastAPI · ML | planning |
-| **Gamma** | C++ · Algorithms | exploring |
+| project | what | status |
+|---------|------|--------|
+| Android app (Kotlin) | TBA | building |
+| API service (Python) | TBA | planning |
+| Systems tooling (C++) | TBA | exploring |
 
 ---
 
-### contact
+### around the web
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://linkedin.com/in/naman--mittal">
-        <img src="https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=fff" alt="LinkedIn"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="mailto:namanmittal501@gmail.com">
-        <img src="https://img.shields.io/badge/Email-111?style=for-the-badge&logo=gmail&logoColor=fff" alt="Email"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/coolguynova">
-        <img src="https://img.shields.io/badge/GitHub-111?style=for-the-badge&logo=github&logoColor=fff" alt="GitHub"/>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <a href="https://linkedin.com/in/naman--mittal">
+    <img src="https://img.shields.io/badge/LinkedIn-111?style=flat-square&logo=linkedin&logoColor=fff" alt="LinkedIn" />
+  </a>
+  <a href="mailto:namanmittal501@gmail.com">
+    <img src="https://img.shields.io/badge/Email-111?style=flat-square&logo=gmail&logoColor=fff" alt="Email" />
+  </a>
+  <a href="https://github.com/coolguynova">
+    <img src="https://img.shields.io/badge/GitHub-111?style=flat-square&logo=github&logoColor=fff" alt="GitHub" />
+  </a>
+</p>
 
 ---
 
-<br>
-<div align="center">
-  <sub><code>thanks for stopping by :)</code></sub>
-</div>
+<img src="https://img.shields.io/badge/updated-2026-111?style=flat-square" alt="updated" />
