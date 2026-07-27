@@ -28,13 +28,11 @@ C++      ▰▰▰▰▰▰▰▰▰▰  Algorithms, Systems, Game Dev
 ### github
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=coolguynova&hide_border=true&background=080808&stroke=222222&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=888888&currStreakLabel=ffffff&sideLabels=666666&dates=444444" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Languages-Kotlin%20%7C%20Python%20%7C%20C++-111?style=flat-square&labelColor=eee" />
-  <img src="https://img.shields.io/badge/Focus-Creative%20Technologist-111?style=flat-square&labelColor=eee" />
-  <img src="https://img.shields.io/badge/Based%20in-Delhi%2C%20India-111?style=flat-square&labelColor=eee" />
+  <a href="https://github.com/coolguynova">
+    <img src="https://img.shields.io/badge/Kotlin-Primary-111?style=flat-square&labelColor=eee" />
+    <img src="https://img.shields.io/badge/Python-Proficient-111?style=flat-square&labelColor=eee" />
+    <img src="https://img.shields.io/badge/C%2B%2B-Intermediate-111?style=flat-square&labelColor=eee" />
+  </a>
 </p>
 
 ---
