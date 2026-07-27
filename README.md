@@ -25,7 +25,7 @@ When I'm not shipping features, you'll find me buried in a Minecraft world or ch
 
 ---
 
-<!-- Stats row — clean cards using shields.io (reliable CDN, always renders) -->
+<!-- Stats row — using shields.io (CDN-hosted, always renders) -->
 
 ### metrics
 
@@ -33,10 +33,6 @@ When I'm not shipping features, you'll find me buried in a Minecraft world or ch
   <img src="https://img.shields.io/badge/experience-4%2B%20years-000?style=for-the-badge&logo=clockify&logoColor=fff&labelColor=eee" alt="4+ years experience" />
   <img src="https://img.shields.io/badge/repositories-10%2B-000?style=for-the-badge&logo=github&logoColor=fff&labelColor=eee" alt="10+ repositories" />
   <img src="https://img.shields.io/badge/languages-3-000?style=for-the-badge&logo=code&logoColor=fff&labelColor=eee" alt="3 languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=coolguynova&hide_border=true&background=ffffff&stroke=eeeeee&ring=111111&fire=111111&currStreakNum=111111&sideNums=888888&currStreakLabel=111111&sideLabels=aaaaaa&dates=cccccc" width="100%" alt="GitHub Streak" />
 </p>
 
 ---
@@ -67,15 +63,16 @@ When I'm not shipping features, you'll find me buried in a Minecraft world or ch
 ---
 
 <!-- 
-  RECENT ACTIVITY — Using github-readme-activity-graph for a visual contribution graph.
-  Falls back gracefully if the service is unavailable (the image just won't load).
-  Also includes manual recent updates that act as a changelog.
+  PULSE — Simple shields.io badges that always render.
 -->
 
 ### pulse
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=coolguynova&bg_color=ffffff&color=888888&line=111111&point=111111&area=true&area_color=f5f5f5&hide_border=true" width="100%" alt="Contribution Graph" />
+  <img src="https://img.shields.io/badge/kotlin-primary%20language-000?style=flat-square&labelColor=eee" />
+  <img src="https://img.shields.io/badge/python-secondary%20language-000?style=flat-square&labelColor=eee" />
+  <img src="https://img.shields.io/badge/c%2B%2B-also%20know-000?style=flat-square&labelColor=eee" />
+  <img src="https://img.shields.io/badge/minecraft-survival%20enthusiast-000?style=flat-square&labelColor=eee" />
 </p>
 
 <br>
