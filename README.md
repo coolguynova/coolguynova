@@ -1,9 +1,5 @@
 # hey, I'm Naman. 👋
 
-<p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&size=30&duration=3000&pause=1000&color=FFFFFF&background=00000000&width=500&height=60&lines=hey,+I'm+Naman!+👋;I'm+a+creative+technologist...;let's+build+something+cool." alt="Handwritten Greeting" />
-</p>
-
 I'm a **Creative Technologist & Interactive Developer** based in Delhi, India. I specialize in building highly interactive, polished web experiences, clean motion design, and high-performance frontends.
 
 ---
@@ -49,14 +45,14 @@ I'm a **Creative Technologist & Interactive Developer** based in Delhi, India. I
 ### ✦ Contributions 🐍
 
 <p align="center">
-  <img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contributions Snake" onerror="this.src='./assets/activity.svg'" />
+  <img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contributions Snake" />
 </p>
 
 ---
 
 ### ✦ Let's Grab a Coffee!
 
-I'm always down to talk about creative frontend work, interactive dev, or design systems.
+I'm always down to chat about creative frontend work, interactive dev, or design systems.
 
 * **LinkedIn**: [linkedin.com/in/naman--mittal](https://linkedin.com/in/naman--mittal)
 * **Email**: [namanmittal501@gmail.com](mailto:namanmittal501@gmail.com)
@@ -64,6 +60,5 @@ I'm always down to talk about creative frontend work, interactive dev, or design
 ---
 
 <p align="center">
-  <small><i>Built with code, pixels, and a handwritten touch. ✦</i></small>
+  <small><i>Built with code and pixels. ✦</i></small>
 </p>
-
