@@ -28,7 +28,7 @@ C++      ▰▰▰▰▰▰▰▰▰▰  Algorithms, Systems, Game Dev
 ### github
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=coolguynova&hide_border=true&background=080808&stroke=222222&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=888888&currStreakLabel=ffffff&sideLabels=666666&dates=444444" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=coolguynova&hide_border=true&background=080808&stroke=222222&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=888888&currStreakLabel=ffffff&sideLabels=666666&dates=444444" width="100%" />
 </p>
 
 <p align="center">
