@@ -1,64 +1,34 @@
-# hey, I'm Naman. 👋
+<img src="./assets/banner.svg" width="100%" alt="Naman Mittal" />
 
-I'm a **Creative Technologist & Interactive Developer** based in Delhi, India. I specialize in building highly interactive, polished web experiences, clean motion design, and high-performance frontends.
+<br>
+
+I build things with **Kotlin**, **Python**, and **C++**.  
+Full Stack Developer based in Delhi, India.
 
 ---
 
-### ✦ Quick Overview
+### stack
 
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Naman Mittal Overview" />
+<p>
+  <img src="https://img.shields.io/badge/Kotlin-000?style=flat-square&logo=kotlin&logoColor=fff&labelColor=eee" />
+  <img src="https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=fff&labelColor=eee" />
+  <img src="https://img.shields.io/badge/C++-000?style=flat-square&logo=c%2B%2B&logoColor=fff&labelColor=eee" />
+  <br>
+  <img src="https://img.shields.io/badge/Ktor-000?style=flat-square&logo=kotlin&logoColor=fff&labelColor=eee" />
+  <img src="https://img.shields.io/badge/FastAPI-000?style=flat-square&logo=fastapi&logoColor=fff&labelColor=eee" />
+  <img src="https://img.shields.io/badge/Android-000?style=flat-square&logo=android&logoColor=fff&labelColor=eee" />
+  <br>
+  <img src="https://img.shields.io/badge/Git-000?style=flat-square&logo=git&logoColor=fff&labelColor=eee" />
+  <img src="https://img.shields.io/badge/Docker-000?style=flat-square&logo=docker&logoColor=fff&labelColor=eee" />
+  <img src="https://img.shields.io/badge/Figma-000?style=flat-square&logo=figma&logoColor=fff&labelColor=eee" />
 </p>
 
 ---
 
-### ✦ Focus & Skill Matrix
+### connect
 
-<p align="center">
-  <img src="./assets/telemetry.svg" width="100%" alt="Skills Target" />
-</p>
-
----
-
-### ✦ Code & Build Metrics
-
-<p align="center">
-  <img src="./assets/activity.svg" width="100%" alt="Build Metrics" />
-</p>
-
----
-
-### ✦ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=3178C6" />
-  <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=339933" />
-  <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=3776AB" />
-  <img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=F24E1E" />
-  <img src="https://img.shields.io/badge/GSAP-000000?style=flat-square&logo=greensock&logoColor=88CE02" />
-</p>
-
----
-
-### ✦ Contributions 🐍
-
-<p align="center">
-  <img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contributions Snake" />
-</p>
-
----
-
-### ✦ Let's Grab a Coffee!
-
-I'm always down to chat about creative frontend work, interactive dev, or design systems.
-
-* **LinkedIn**: [linkedin.com/in/coolguynova](www.linkedin.com/in/naman48708)
-* **Email**: [coolguynova0302@gmail.com](mailto:coolguynova0302@gmail.com)
-
----
-
-<p align="center">
-  <small><i>Built with code and pixels. ✦</i></small>
+<p>
+  <a href="https://www.linkedin.com/in/naman48708"><img src="https://img.shields.io/badge/LinkedIn-000?style=flat-square&logo=linkedin&logoColor=fff&labelColor=eee" alt="LinkedIn" /></a>
+  <a href="mailto:coolguynova0302@gmail.com"><img src="https://img.shields.io/badge/Email-000?style=flat-square&logo=gmail&logoColor=fff&labelColor=eee" alt="Email" /></a>
+  <a href="https://github.com/coolguynova"><img src="https://img.shields.io/badge/GitHub-000?style=flat-square&logo=github&logoColor=fff&labelColor=eee" alt="GitHub" /></a>
 </p>
