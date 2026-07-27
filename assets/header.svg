@@ -1,44 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="220">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap');
-      .t { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+      .pixel { font-family: 'Press Start 2P', 'Courier New', 'Consolas', monospace; }
     </style>
+    <pattern id="dirt" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#8B6B4B" />
+      <rect x="0" y="0" width="8" height="8" fill="#7D5F42" />
+      <rect x="8" y="8" width="8" height="8" fill="#7D5F42" />
+      <rect x="2" y="10" width="4" height="3" fill="#6E5338" />
+      <rect x="11" y="2" width="3" height="3" fill="#6E5338" />
+      <rect x="10" y="12" width="4" height="3" fill="#9B7B5B" />
+    </pattern>
+    <pattern id="stone" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#808080" />
+      <rect x="0" y="0" width="8" height="8" fill="#727272" />
+      <rect x="8" y="8" width="8" height="8" fill="#727272" />
+      <rect x="2" y="2" width="4" height="4" fill="#666" />
+      <rect x="10" y="10" width="4" height="4" fill="#666" />
+      <rect x="1" y="12" width="4" height="3" fill="#999" />
+    </pattern>
   </defs>
 
-  <!-- Card -->
-  <rect width="848" height="198" x="1" y="1" rx="12" fill="#fff" stroke="#e5e7eb" stroke-width="1" />
+  <!-- Sky -->
+  <rect width="848" height="218" x="1" y="1" rx="4" fill="#87CEEB" />
 
-  <!-- Left color block -->
-  <rect x="1" y="1" width="6" height="198" rx="3" fill="#111" />
+  <!-- Sun -->
+  <rect x="730" y="30" width="40" height="40" fill="#FFD700" />
+  <rect x="734" y="34" width="32" height="32" fill="#FFEB3B" />
 
-  <!-- Name row -->
-  <text x="40" y="72" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="42" font-weight="700" fill="#111" letter-spacing="-1">Naman Mittal</text>
+  <!-- Clouds -->
+  <g fill="#FFF" opacity="0.9">
+    <rect x="540" y="30" width="64" height="16" />
+    <rect x="548" y="18" width="48" height="12" />
+    <rect x="90" y="50" width="72" height="16" />
+    <rect x="100" y="38" width="52" height="12" />
+  </g>
 
-  <!-- Role -->
-  <text x="40" y="100" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="14" fill="#6b7280" font-weight="400" letter-spacing="0.3">Creative Technologist</text>
-  <circle cx="190" cy="96" r="2" fill="#d1d5db" />
-  <text x="200" y="100" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="14" fill="#6b7280" font-weight="400">Delhi, India</text>
+  <!-- Mountains -->
+  <polygon points="0,160 80,80 160,160" fill="#6B8E6B" />
+  <polygon points="120,160 200,95 300,160" fill="#5A7D5A" />
+  <polygon points="250,160 380,70 500,160" fill="#6B8E6B" />
+  <polygon points="450,160 550,100 650,160" fill="#5A7D5A" />
+  <polygon points="600,160 720,85 848,160" fill="#6B8E6B" />
 
-  <!-- Divider -->
-  <line x1="40" y1="118" x2="250" y2="118" stroke="#f3f4f6" stroke-width="1" />
+  <!-- Ground -->
+  <rect x="0" y="140" width="848" height="12" fill="#7BBC6B" stroke="#5A9A4A" stroke-width="0.5" />
+  <rect x="0" y="152" width="848" height="42" fill="url(#dirt)" />
+  <rect x="0" y="194" width="848" height="24" fill="url(#stone)" />
 
-  <!-- Language tags -->
-  <rect x="40" y="135" height="26" width="62" rx="6" fill="#f3f4f6" />
-  <text x="71" y="152" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="12" fill="#111" text-anchor="middle" font-weight="500">Kotlin</text>
+  <!-- Grass Block icon -->
+  <rect x="28" y="142" width="36" height="36" fill="url(#dirt)" stroke="#444" stroke-width="1.5" />
+  <!-- Grass top -->
+  <rect x="28" y="142" width="36" height="7" fill="#7BBC6B" stroke="#444" stroke-width="0.5" />
+  <!-- Grass block side overlay -->
+  <rect x="28" y="149" width="36" height="3" fill="#6AAA5A" opacity="0.6" />
+  <rect x="28" y="152" width="36" height="2" fill="#5A9A4A" opacity="0.3" />
+  <!-- Dirt speckles on side -->
+  <rect x="32" y="155" width="5" height="4" fill="#6E5338" opacity="0.6" />
+  <rect x="46" y="163" width="6" height="4" fill="#6E5338" opacity="0.6" />
+  <rect x="54" y="156" width="4" height="3" fill="#6E5338" opacity="0.6" />
 
-  <rect x="108" y="135" height="26" width="66" rx="6" fill="#f3f4f6" />
-  <text x="141" y="152" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="12" fill="#111" text-anchor="middle" font-weight="500">Python</text>
+  <!-- Name -->
+  <text x="76" y="174" class="pixel" font-size="20" fill="#3B3B3B" stroke="#3B3B3B" stroke-width="4">Naman Mittal</text>
+  <text x="76" y="174" class="pixel" font-size="20" fill="#FFF">Naman Mittal</text>
 
-  <rect x="180" y="135" height="26" width="46" rx="6" fill="#f3f4f6" />
-  <text x="203" y="152" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="12" fill="#111" text-anchor="middle" font-weight="500">C++</text>
+  <!-- Subtitle -->
+  <text x="76" y="196" class="pixel" font-size="7" fill="#FFF">Creative Technologist</text>
 
-  <!-- Right side: subtle terminal accent -->
-  <rect x="660" y="40" width="150" height="120" rx="8" fill="#fafafa" stroke="#f3f4f6" stroke-width="1" />
-  <rect x="668" y="48" width="134" height="14" rx="3" fill="#f3f4f6" />
-  <circle cx="675" cy="55" r="3" fill="#d1d5db" />
-  <circle cx="685" cy="55" r="3" fill="#d1d5db" />
-  <circle cx="695" cy="55" r="3" fill="#d1d5db" />
-  <text x="710" y="108" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" font-weight="500">data class Developer</text>
-  <text x="710" y="126" font-family="'Inter',system-ui,-apple-system,sans-serif" font-size="11" fill="#d1d5db" text-anchor="middle" font-weight="400">also likes Minecraft █</text>
+  <!-- Pickaxe -->
+  <g transform="translate(765, 148)">
+    <rect x="8" y="16" width="4" height="24" fill="#8B4513" stroke="#6B3410" stroke-width="1" />
+    <polygon points="0,0 12,0 16,8 16,16 8,16 0,8" fill="#808080" stroke="#555" stroke-width="1" />
+    <polygon points="2,2 6,2 8,6 8,12 6,14 2,14 0,10 0,6" fill="#999" />
+    <rect x="12" y="4" width="4" height="4" fill="#666" />
+  </g>
 </svg>

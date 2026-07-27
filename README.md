@@ -2,33 +2,50 @@
 
 <br>
 
-I build things with **Kotlin**, **Python**, and **C++**.  
-Also a **Minecraft** fan — been around blocks longer than most frameworks.
+<blockquote>
+  <code>Naman Mittal joined the game</code><br>
+  <code>Creative Technologist  |  Kotlin · Python · C++  |  Delhi, India</code>
+</blockquote>
 
 ---
 
-### now
+### ⛏️ hotbar
 
-- **Kotlin** → Android apps, Ktor backends, coroutines
-- **Python** → FastAPI, data pipelines, automation
-- **C++** → algorithms, systems, maybe a Minecraft clone at some point
-- **Minecraft** → redstone tinkerer, survival enthusiast
-- **2026 goal** → ship more, collect fewer tabs
-
----
-
-### projects
-
-| project | what | status |
-|---------|------|--------|
-| Android app (Kotlin) | TBA | building |
-| API service (Python) | TBA | planning |
-| Systems tooling (C++) | TBA | exploring |
-| Minecraft plugin (Kotlin) | maybe | thinking about it |
+| slot | item | enchantment |
+|------|------|-------------|
+| 1 | **Kotlin** 🟣 | Sharpness IV — Android, Ktor, Coroutines |
+| 2 | **Python** 🐍 | Efficiency V — FastAPI, Data, Automation |
+| 3 | **C++** ➕ | Power IV — Algorithms, Systems, Game Dev |
+| 4 | **Redstone** 🔴 | Unbreaking III — Minecraft tinkerer |
 
 ---
 
-### around the web
+### 🏗️ current quests
+
+```
+[!] Active objectives — no particular order:
+
+  ▸ Build an Android app (Kotlin)               [■■■■□□□□□□]  in progress
+  ▸ Ship a Python API service                     [■■■□□□□□□□]  planning
+  ▸ Explore C++ systems programming              [■■□□□□□□□□]  learning
+  ▸ Maybe make a Minecraft plugin (Kotlin)       [■□□□□□□□□□]  thinking...
+  ▸ 2026: ship more, collect fewer tabs          [■■■■■■■□□□]  locked in
+```
+
+---
+
+### 🗺️ inventory
+
+| item | amount | notes |
+|------|--------|-------|
+| Experience | 4+ years | leveled up a few times |
+| Repos | 10+ | some public, some secret |
+| Languages | 3 | Kotlin main, Python secondary, C++ for bosses |
+| Minecraft worlds | many | mostly survived, some redstone experiments |
+
+---
+
+### 📡 nearby players
 
 <p align="left">
   <a href="https://linkedin.com/in/naman--mittal">
@@ -44,4 +61,4 @@ Also a **Minecraft** fan — been around blocks longer than most frameworks.
 
 ---
 
-<img src="https://img.shields.io/badge/updated-2026-111?style=flat-square" alt="updated" />
+<img src="https://img.shields.io/badge/seed-2026-111?style=flat-square" alt="seed" />
